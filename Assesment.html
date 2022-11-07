@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assesment.css">
+    <title>Registration Form</title>
+</head>
+<body> 
+    <h1>Student Registration Form</h1>
+        <form method="post">
+            <div class="first-name">
+                <label for="Name">First Name</label>
+                <input type="text" name="name" placeholder="Enter Your First Name">
+            </div>
+                <div class="last-name">
+                    <label for="name">Last Name</label>
+                    <input type="text" name="name" placeholder="Enter Your Last Name">
+                </div>
+                <div class="email">
+                    <label for="Email">Email</label>
+                    <input type="email"  placeholder="It should contain @..">
+                </div>
+                <div class="mobile-no">
+                    <label for="Mobile">Mobile</label>
+                    <input type="phonenumber" name="digit" placeholder="Only 10 digits are allowed">
+                </div>
+                <div class="gender">
+                    <label for="Gender">Gender</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+                <div class="date">
+                    <label for="date">Date Of Month</label>
+                    <input type="date" name="date">
+                </div>
+                <div class="address">
+                    <label for="address">Address</label>
+                    <textarea name="text" id="" cols="30" rows="7"></textarea>
+                </div>
+                <div class="city">
+                    <label for="city">City</label>
+                <input type="text" name="name">
+                </div>
+                <div class="area-pin">
+                    <label for="Area PIN">Area PIN</label>
+                    <input type="text">
+                </div>
+                <div class="state">
+                    <label for="State">State</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="Qualification">
+                    <label for="Qualification">Qualification</label>
+                    <select id="Select Qualification">
+                        <option value="Select Qualification">Select Qualification</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Information Technologies">Information Technologies</option>
+                        <option value="Computer Architecture">Computer Architecture</option>
+                        <option value="Tele Communication">Tele Communication</option>
+                      </select>
+                </div>
+                <div class="pwd">
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+                </div>
+                <button>Registered</button>
+        </form>
+</body>
+</html>

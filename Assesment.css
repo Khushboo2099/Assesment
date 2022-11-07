@@ -1,0 +1,22 @@
+
+form {
+    background-color: #7080909b;
+    height: 700px;
+    width: 100%;
+}
+h1 {font-size: 17px; height;text-align: center; color:darkred; border-bottom: 2px solid darkred;  width: 199px; margin-left: 650px;}
+label {margin: 20px 10px 5px 10px;}
+.first-name input {margin: 20px 10px 0px 57px; height: 25px; width: 40%;}
+.last-name input {margin: 5px 10px 0px 58px; height: 25px; width: 40%;}
+.email input {margin: 5px 10px 0px 88px; height: 25px; width: 40%;}
+.mobile-no input {margin: 5px 10px 0px 80px; height: 25px; width: 40%;}
+/* .gender {display: flex;} */
+.gender input {margin: 5px 10px 0px 73px;}
+.date input {margin: 5px 10px 0px 30px; height: 25px; width: 40%;}
+.address textarea {margin: 5px 10px 0px 75px; height: 95px; width: 40%;}
+.city input {margin: 5px 10px 0px 99px; height: 25px; width: 40%;}
+.area-pin input {margin: 5px 10px 0px 65px; height: 25px; width: 40%;}
+.state input {margin: 5px 10px 0px 92px; height: 25px; width: 40%;}
+.Qualification select {margin: 5px 10px 0px 40px; height: 25px; width: 40.5%;}
+.pwd input { margin: 5px 10px 0px 62px; height: 25px; width: 40%;}
+button {background-color: green; color: white; height: 30px; width: 80px; margin: 10px 10px 10px 10px;}
